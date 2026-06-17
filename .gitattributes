@@ -1,0 +1,11 @@
+# Normalize line endings to avoid CRLF/LF noise across machines.
+* text=auto eol=lf
+
+# Windows scripts keep CRLF.
+*.bat text eol=crlf
+
+# Binary files.
+*.jar binary
+*.png binary
+*.webp binary
+*.keystore binary
